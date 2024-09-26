@@ -22,7 +22,7 @@ The following constants are used and managed in `Constants.java`:
 - **BASE_URL**: The base URL for the API.
 - **AUTH_TOKEN**: The authentication token required for API requests.
 - **ROOM_ID**: The unique room identifier for starting/stopping recordings.
-- **JSON_RESPONSE**: The JSON body used for starting a recording.
+- **JSON_BODY**: The JSON body used for starting a recording.
 
 ## Test Cases
 
