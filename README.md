@@ -1,6 +1,7 @@
 # 100ms SDET Assignment
 
 # Project Structure
+```
 SDETAssignment
 ├── src
 │   └── test
@@ -16,8 +17,7 @@ SDETAssignment
 ├── test-output
 └── pom.xml
 
-
-
+```
 ## Constants
 
 The following constants are used and managed in `Constants.java`:
