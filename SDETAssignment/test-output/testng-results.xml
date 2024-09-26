@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-26T11:21:48 IST" name="Default suite" finished-at="2024-09-26T11:21:51 IST" duration-ms="2850">
+    <groups>
+    </groups>
+    <test started-at="2024-09-26T11:21:48 IST" name="Default test" finished-at="2024-09-26T11:21:51 IST" duration-ms="2850">
+      <class name="tests.RecordingTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RecordingTests@5038d0b5]" started-at="2024-09-26T11:21:48 IST" name="setup" finished-at="2024-09-26T11:21:49 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidRoomIDTest()[pri:1, instance:tests.RecordingTests@5038d0b5]" started-at="2024-09-26T11:21:49 IST" name="invalidRoomIDTest" description="Test with an invalid room ID" finished-at="2024-09-26T11:21:50 IST" duration-ms="1637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidRoomIDTest -->
+        <test-method signature="invalidAuthTokenTest()[pri:2, instance:tests.RecordingTests@5038d0b5]" started-at="2024-09-26T11:21:50 IST" name="invalidAuthTokenTest" description="Test with an invalid auth token" finished-at="2024-09-26T11:21:50 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidAuthTokenTest -->
+        <test-method signature="startRecordingSuccessfully()[pri:3, instance:tests.RecordingTests@5038d0b5]" started-at="2024-09-26T11:21:50 IST" name="startRecordingSuccessfully" description="Start recording successfully" finished-at="2024-09-26T11:21:50 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRecordingSuccessfully -->
+        <test-method signature="startRecordingMultipleTimes()[pri:4, instance:tests.RecordingTests@5038d0b5]" started-at="2024-09-26T11:21:50 IST" name="startRecordingMultipleTimes" description="Attempt to start recording multiple times" finished-at="2024-09-26T11:21:51 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRecordingMultipleTimes -->
+        <test-method signature="stopRecordingSuccessfully()[pri:5, instance:tests.RecordingTests@5038d0b5]" started-at="2024-09-26T11:21:51 IST" name="stopRecordingSuccessfully" description="Stop recording successfully" finished-at="2024-09-26T11:21:51 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopRecordingSuccessfully -->
+        <test-method signature="stopRecordingWithoutStarting()[pri:6, instance:tests.RecordingTests@5038d0b5]" started-at="2024-09-26T11:21:51 IST" name="stopRecordingWithoutStarting" description="Attempt to stop recording without starting" finished-at="2024-09-26T11:21:51 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopRecordingWithoutStarting -->
+        <test-method signature="whenPayloadIsEmpty()[pri:7, instance:tests.RecordingTests@5038d0b5]" started-at="2024-09-26T11:21:51 IST" name="whenPayloadIsEmpty" description="Verify empty payload when starting recording" finished-at="2024-09-26T11:21:51 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenPayloadIsEmpty -->
+        <test-method signature="whenPayloadInputIsWrong()[pri:8, instance:tests.RecordingTests@5038d0b5]" started-at="2024-09-26T11:21:51 IST" name="whenPayloadInputIsWrong" description="Verify wrong payload input when starting recording" finished-at="2024-09-26T11:21:51 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenPayloadInputIsWrong -->
+        <test-method signature="whenPayloadAsInvalidJson()[pri:9, instance:tests.RecordingTests@5038d0b5]" started-at="2024-09-26T11:21:51 IST" name="whenPayloadAsInvalidJson" description="Verify payload with invalid json when starting recording" finished-at="2024-09-26T11:21:51 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenPayloadAsInvalidJson -->
+      </class> <!-- tests.RecordingTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
