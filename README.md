@@ -10,8 +10,6 @@ SDETAssignment
 │           │   └── RecordingTests.java  <!-- Holds the test methods used for testing various API functionalities -->
 │           └── Utils
 │               └── Constants.java  <!-- Contains static final values (constants) used across the test suite -->
-├── JRE System Library [JavaSE-1.8]
-├── Maven Dependencies
 ├── src
 ├── target
 ├── test-output
